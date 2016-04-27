@@ -1,0 +1,73 @@
+#css-zen-garden{
+    background-color: #ecd9c6;
+    font-family: 'Avenir', 'Helvetica', 'Frutiger';
+    font-size: 10pt;
+}
+
+#zen-intro{
+    background-color:white;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 25px;
+}
+
+h1{
+    color:#666633;
+    font-size: 30pt;
+    text-transform: uppercase;
+    font-family: 'Futura';
+    letter-spacing: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px dashed #ecd9c6;
+    padding: 30px;
+}
+
+.explanation, .participation, .benefits, .requirements{
+    background-color:white;
+    padding: 50px;
+    margin: 25px;
+    border-radius: 25px;
+
+}
+
+footer{
+    word-spacing: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background:linear-gradient(to top, #ecd9c6, white);
+    margin: 0px 25px;
+    border-radius: 10px;
+}
+
+a{
+    color: #888844;
+}
+
+ul{
+    list-style: none;
+}
+
+h2{
+    color:#9a6432;
+    font-size: 16pt;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h3{
+    color:#77773c;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+
+.sidebar{
+    background-color: white;
+    padding: 50px;
+    margin: 25px;
+    border-radius: 25px;
+}
+
+
