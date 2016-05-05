@@ -1,0 +1,131 @@
+*{
+box-sizing: border-box;
+}
+
+.top-header{
+    margin: 0px 10px 0px 0px;
+    padding: 15px 10px;
+    text-align:right;
+    color:white;
+    font-family:'Avenir';
+    word-spacing: 20px;
+    background:linear-gradient(to left, darkseagreen, aliceblue);  
+}
+
+.left-header{
+    float:left;
+    margin:0px 15px;
+}
+
+.about-us{
+    word-spacing:0px;
+}
+
+body{
+    width:1100px;
+    margin:auto;
+    background-color:aliceblue;
+    font-family:'Avenir';
+}
+
+.motto{
+    float:right;
+    text-align:right;
+    color:steelblue;
+    font-family:'Avenir';
+    width:40%;
+    font-size:20pt;
+    text-transform:uppercase;
+    line-height:30px;
+    margin-right:10px;
+}
+
+.navigation{
+    margin:0px;
+    padding:10px 10px 10px 20px;
+    font-family:'Avenir';
+    background-color:lightsteelblue;
+    color:white;
+    width:99%;
+    word-spacing:100px;
+}
+
+.navigation a{
+    word-spacing:0px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.column {
+    float:left;
+}
+
+.alltext{
+    padding-left:20px;
+    background-color:lightgray;
+    width:99%
+}
+
+.contactus h2{
+    font-size:35px;
+    color:white;
+    line-height:35px;
+    margin-bottom:0px;
+}
+
+.contactform{
+    width:45%;
+    margin-bottom:10px;
+}
+
+.namebox{
+    width:419px;
+}
+
+.emailbox{
+    width:424px;
+}
+
+.dropdown{
+    width:467px;
+}
+
+.subjectbox{
+    width:411px;
+}
+
+.messagebox{
+    width:400px;
+    height:200px;
+}
+
+.careers{
+    width:50%;
+    margin-left:40px;
+    margin-bottom:20px;
+}
+
+.careers h2{
+    color:black;
+}
+
+.address{
+    list-style-type: none;
+    margin-left:-40px;
+}
+
+footer{
+    background-color:lightsteelblue;
+    margin-right:1%;
+    text-align:right;
+    word-spacing:30px;
+    padding:10px 10px 10px 10px;
+    clear:both;
+}
+
+footer a{
+    word-spacing:0px;
+}

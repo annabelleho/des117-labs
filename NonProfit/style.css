@@ -1,0 +1,221 @@
+*{
+box-sizing: border-box;
+}
+
+.top-header{
+    margin: 0px 10px 0px 0px;
+    padding: 15px 10px;
+    text-align:right;
+    color:white;
+    font-family:'Avenir';
+    word-spacing: 20px;
+    background:linear-gradient(to left, darkseagreen, aliceblue);  
+}
+
+.left-header{
+    float:left;
+    margin:0px 15px;
+}
+
+.about-us{
+    word-spacing:0px;
+}
+
+body{
+    width:1100px;
+    margin:auto;
+    background-color:aliceblue;
+    font-family:'Avenir';
+}
+
+.motto{
+    float:right;
+    text-align:right;
+    color:steelblue;
+    font-family:'Avenir';
+    width:40%;
+    font-size:20pt;
+    text-transform:uppercase;
+    line-height:30px;
+    margin-right:10px;
+}
+
+.navigation{
+    margin:0px;
+    padding:10px 10px 10px 20px;
+    font-family:'Avenir';
+    background-color:lightsteelblue;
+    color:white;
+    width:99%;
+    word-spacing:100px;
+}
+
+.navigation a{
+    word-spacing:0px;
+}
+
+.textbox{
+    width:33%;
+    height:350px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.square1{
+    background-color:darkgray;
+    color: white;
+    padding-top:110px;
+    font-weight:bold;
+    font-size:40px;
+    text-align:center;
+}
+
+.square1:hover, .square3:hover, .square5:hover, .square8:hover, .individuals:hover, .businesses:hover{
+    background-color:darkseagreen;
+}
+
+.square2{
+    background-image:url(polarbears.jpg);
+    background-position:center;
+    background-size:cover;
+    height:350px;
+    width:33%;
+    text-align:center;    
+}
+
+.square3{
+    padding-left:25px;
+    background-color:darkgray;
+    font-weight:bold;
+    font-size:40px;
+    text-transform:uppercase;
+    padding-top:70px;
+}
+
+.square4{
+    background-image:url(nature.jpg);
+    background-position:center;
+    background-size:cover;
+    height:770px;
+    width:33%;
+    text-align:center;
+}
+
+
+.square5{
+    padding-left:25px;
+    background-color:darkgray;
+    padding-top:40px;
+}
+
+.square5 > a{
+    display:block;
+    font-weight:bold;
+    font-size:38px;
+    text-transform:uppercase;
+    margin-bottom:0;
+}
+
+.square5 p{
+    margin-top:0;
+    font-weight:500;
+    font-size:35px;
+    line-height:36px;
+}
+
+.individuals{
+    padding-top:60px;
+    background-color:lightgray;
+    padding-left:25px;
+}
+
+.individuals > h2{
+    text-transform:uppercase;
+    color:white;
+    font-size:38px;
+    margin-bottom:0;
+}
+
+.individuals > p{
+    margin-top:0;
+    text-transform:lowercase;
+    font-size:28px;
+    font-weight:500;
+    line-height:36px;
+}
+
+.square8{
+    background-color:lightgray;
+    padding-top:50px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.square8 > a{
+    display:block;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:34px;
+    margin-bottom:0;
+}
+
+.square8 > p{
+    margin-top:0;
+    font-size:30px;
+    font-weight:500;
+    line-height:32px;
+}
+
+.businesses{
+    padding-top:60px;
+    background-color:darkgray;
+    padding-left:25px;
+}
+
+.businesses > h2{
+    text-transform:uppercase;
+    color:white;
+    font-size:38px;
+    margin-bottom:0;
+}
+
+.businesses > p{
+    margin-top:0;
+    text-transform:lowercase;
+    font-size:28px;
+    font-weight:500;
+    line-height:36px;
+}
+
+.newsletter{
+    background-color:gray;
+    color:white;
+    font-size:20px;
+    padding-right:10px;
+    margin-right:1%;
+    display:inline;
+    float:right;
+    width:66%;
+    text-align:right;
+    height:70px;
+}
+
+.column {
+        float:left;
+}
+
+footer{
+    background-color:lightsteelblue;
+    margin-right:1%;
+    text-align:right;
+    word-spacing:30px;
+    clear:both;
+    padding:10px 10px 10px 10px;
+}
+
+footer a{
+    word-spacing:0px;
+}
